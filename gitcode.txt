@@ -25,3 +25,19 @@ git commit -m '这里写提交描述'
 5 最后同步到github
 
 git push -u origin master
+
+
+
+____________________________
+
+
+常用命令：
+
+git status 查看工作区代码相对于暂存区的差别
+
+
+使用下面命令验证与github是否连接成功
+ssh -T git@github.com
+
+下面表示OK
+Hi w5560509! You've successfully authenticated, but GitHub does not provide shell access.
