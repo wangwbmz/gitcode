@@ -1,0 +1,27 @@
+1、在github上新建目录。从而获得一个仓库地址比如：git@github.com:w5560509/gitcode.git
+
+2、使用命令工具cmder，定位到你本地要存放该仓库的目录。
+
+克隆一个github项目：
+
+git clone git@github.com:w5560509/gitcode.git
+
+3、在该目录下新建任一文件，比如：a.txt
+
+4、将改文件存放到暂存区。
+
+git add a.txt
+
+
+也可以使用git add . 把所有文件存放到暂存区
+
+
+4、提交到仓库：
+
+git commit -m '这里写提交描述'
+
+
+
+5 最后同步到github
+
+git push -u origin master
