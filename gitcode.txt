@@ -4,7 +4,7 @@
 
 克隆一个github项目：
 
-git clone git@github.com:w5560509/gitcode.git
+git clone git@github.com:wangwbmz/gitcode.git
 
 3、在该目录下新建任一文件，比如：a.txt
 
@@ -49,6 +49,10 @@ git push -u origin master
   
 ____________________________
 
+从远程拉取一个更新过的仓库内容，保证在同一分支下
+git pull
+
+
 
 常用命令： 
 
@@ -59,4 +63,19 @@ git status 查看工作区代码相对于暂存区的差别
 ssh -T git@github.com
 
 下面表示OK
-Hi w5560509! You've successfully authenticated, but GitHub does not provide shell access.
+Hi wangwbmz! You've successfully authenticated, but GitHub does not provide shell access.
+
+
+__2019.11.15
+
+假如你本地已经 git commit 时，你git push推送不了，这时候远程仓库是有更新过，你要撤回你的commit
+你得执行：git reset --hard "HEAD^"
+
+
+一个简单的提交更新流程：
+
+git add .
+
+git commit -m 描述
+
+git push
