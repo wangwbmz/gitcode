@@ -18,7 +18,7 @@ git add a.txt
 
 4、提交到仓库：
 
-git commit -m '这里写提交描述' 
+git commit -m '这里写提交描述'
 
 
 5 分支操作，保证是在自己的分支下工作修改。
